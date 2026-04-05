@@ -74,17 +74,20 @@
 
 // factory function 
 
-function MainFunction(name, age) {
-    return {
-        name: name,
-        age: age,
-        details: function () {
-            console.log(`name is ${this.name} and age ${this.age}`)
-        }
-    }
-}
+// function MainFunction(name, age) {
+//     return {
+//         name: name,
+//         age: age,
+//         details: function () {
+//             console.log(`name is ${this.name} and age ${this.age}`)
+//         }
+//     }
+// }
 
-const function1 = new MainFunction("ali", 20)
-const function2 = new MainFunction("khan", 30)
-function1.details()
-function2.details()
+// const function1 = new MainFunction("ali", 20)
+// const function2 = new MainFunction("khan", 30)
+// function1.details()
+// function2.details()
+
+// incapsulation 
+
