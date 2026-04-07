@@ -108,3 +108,4 @@ class Moneychecker{
 const moneytransfer = new Moneychecker(12345,5000)
 moneytransfer.sendmoney(200)
 moneytransfer.showmoney()
+
