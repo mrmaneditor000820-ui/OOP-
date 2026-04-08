@@ -91,21 +91,27 @@
 
 // incapsulation 
 
-class Moneychecker{
-    #money
-    constructor(cardnum,cardmoney){
-        this.cardnum = cardnum,
-        this.#money = cardmoney
-    };
-    sendmoney(cardmoney){
-     this.#money += cardmoney
-    }
-    showmoney(){
-        console.log(`availibal money is ${this.#money}`)
-    }
+// class Moneychecker{
+//     #money
+//     constructor(cardnum,cardmoney){
+//         this.cardnum = cardnum,
+//         this.#money = cardmoney
+//     };
+//     sendmoney(cardmoney){
+//      this.#money += cardmoney
+//     }
+//     showmoney(){
+//         console.log(`availibal money is ${this.#money}`)
+//     }
 
-}
-const moneytransfer = new Moneychecker(12345,5000)
-moneytransfer.sendmoney(200)
-moneytransfer.showmoney()
+// }
+// const moneytransfer = new Moneychecker(12345,5000)
+// moneytransfer.sendmoney(200)
+// moneytransfer.showmoney()
+
+
+// Polymorphism
+// poly means (many)
+// Manyforms or Manymethods
+
 
