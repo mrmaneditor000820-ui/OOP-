@@ -114,4 +114,27 @@
 // poly means (many)
 // Manyforms or Manymethods
 
+// 1 Overiding
+
+class Mainclass {
+    details(){
+        console.log("i am in main class")
+    }
+}
+class Subclass1 extends Mainclass{
+    details(){
+        console.log("i am in sub class")
+    }
+}
+class Subclass2 extends Mainclass {
+    details(){
+        console.log("i am sub2  class")
+    }
+}
+const obj = 
+
+
+
+
+
 
