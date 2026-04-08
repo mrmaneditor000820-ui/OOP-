@@ -110,35 +110,45 @@
 // moneytransfer.showmoney()
 
 
-// Polymorphism
+//              <------------------------------Polymorphism----------------------------->
+
 // poly means (many)
 // Manyforms or Manymethods
 
 // 1 Overiding
 
-class Mainclass {
-    details(){
-        console.log("i am in main class")
-    }
-}
-class Subclass1 extends Mainclass{
-    details(){
-        console.log("i am in sub class")
-    }
-}
-class Subclass2 extends Mainclass {
-    details(){
-        console.log("i am sub2  class")
-    }
-}
-const obj1 = new Subclass1()
-const obj2 = new Subclass2()
-const obj3 = new Mainclass()
-obj1.details()
-obj2.details()
-obj3.details()
+// class Mainclass {
+//     details(){
+//         console.log("i am in main class")
+//     }
+// }
+// class Subclass1 extends Mainclass{
+//     details(){
+//         console.log("i am in sub class")
+//     }
+// }
+// class Subclass2 extends Mainclass {
+//     details(){
+//         console.log("i am sub2  class")
+//     }
+// }
+// const obj1 = new Subclass1()
+// const obj2 = new Subclass2()
+// const obj3 = new Mainclass()
+// obj1.details()
+// obj2.details()
+// obj3.details()
 
+// 2. over loading ( compile time )
 
+// class sum  {
+//     add(num1,num2){
+//         if(num2 === undefined){
+//             return num1 + num1
+//         }
+//         return num1 + num2
+//     }
 
-
-
+// }
+// const addnum = new sum()
+// console.log(addnum.add(2,5))
