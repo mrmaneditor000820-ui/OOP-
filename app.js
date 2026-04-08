@@ -131,8 +131,12 @@ class Subclass2 extends Mainclass {
         console.log("i am sub2  class")
     }
 }
-const obj = 
-
+const obj1 = new Subclass1()
+const obj2 = new Subclass2()
+const obj3 = new Mainclass()
+obj1.details()
+obj2.details()
+obj3.details()
 
 
 
